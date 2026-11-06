@@ -1,0 +1,103 @@
+2026-11-05 22:43:39 INFO  BaseTest - Starting browser: chrome
+2026-11-05 22:44:00 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-05 22:44:00 INFO  BaseTest - Browser launch test started
+2026-11-05 22:44:00 INFO  BaseTest - Browser launched successfully
+2026-11-05 22:44:00 INFO  BaseTest - Current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-11-05 22:44:00 INFO  BaseTest - Browser launch test completed
+2026-11-05 22:44:00 INFO  BaseTest - Closing browser session
+2026-11-05 22:44:01 INFO  BaseTest - Browser session closed
+2026-11-05 22:59:44 INFO  BaseTest - Starting browser: chrome
+2026-11-05 22:59:57 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-05 22:59:57 INFO  TestListener - Test started: verifyBrowserLaunch
+2026-11-05 22:59:57 INFO  BaseTest - Browser launch test started
+2026-11-05 22:59:57 INFO  BaseTest - Browser launched successfully
+2026-11-05 22:59:57 INFO  BaseTest - Current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-11-05 22:59:57 INFO  BaseTest - Browser launch test completed
+2026-11-05 22:59:57 INFO  TestListener - Test passed: verifyBrowserLaunch
+2026-11-05 22:59:57 INFO  BaseTest - Closing browser session
+2026-11-05 22:59:57 INFO  BaseTest - Browser session closed
+2026-11-05 22:59:57 INFO  BaseTest - Starting browser: chrome
+2026-11-05 23:00:09 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-05 23:00:09 INFO  TestListener - Test started: verifyFailureScreenshot
+2026-11-05 23:00:09 INFO  BaseTest - Starting intentional failure test
+2026-11-05 23:00:09 ERROR TestListener - Test failed: verifyFailureScreenshot
+java.lang.AssertionError: Intentional failure to verify screenshot capture
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.8.0.jar:7.8.0]
+	at testcases.FailureScreenshotTest.verifyFailureScreenshot(FailureScreenshotTest.java:15) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2026-11-05 23:00:09 INFO  TestListener - Failure screenshot captured successfully
+2026-11-05 23:00:09 INFO  BaseTest - Closing browser session
+2026-11-05 23:00:09 INFO  BaseTest - Browser session closed
+2026-11-05 23:07:15 INFO  BaseTest - Starting browser: chrome
+2026-11-05 23:07:27 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-05 23:07:27 INFO  TestListener - Test started: verifyBrowserLaunch
+2026-11-05 23:07:27 INFO  BaseTest - Browser launch test started
+2026-11-05 23:07:27 INFO  BaseTest - Browser launched successfully
+2026-11-05 23:07:27 INFO  BaseTest - Current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-11-05 23:07:27 INFO  BaseTest - Browser launch test completed
+2026-11-05 23:07:27 INFO  TestListener - Test passed: verifyBrowserLaunch
+2026-11-05 23:07:27 INFO  BaseTest - Closing browser session
+2026-11-05 23:07:27 INFO  BaseTest - Browser session closed
+2026-11-05 23:07:27 INFO  BaseTest - Starting browser: chrome
+2026-11-05 23:07:39 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-05 23:07:39 INFO  TestListener - Test started: verifyFailureScreenshot
+2026-11-05 23:07:39 INFO  BaseTest - Starting intentional failure test
+2026-11-05 23:07:39 INFO  BaseTest - OrangeHRM login page is fully displayed
+2026-11-05 23:07:39 ERROR TestListener - Test failed: verifyFailureScreenshot
+java.lang.AssertionError: Intentional failure to verify screenshot capture
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.8.0.jar:7.8.0]
+	at testcases.FailureScreenshotTest.verifyFailureScreenshot(FailureScreenshotTest.java:30) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2026-11-05 23:07:39 INFO  TestListener - Failure screenshot captured successfully
+2026-11-05 23:07:39 INFO  BaseTest - Closing browser session
+2026-11-05 23:07:40 INFO  BaseTest - Browser session closed

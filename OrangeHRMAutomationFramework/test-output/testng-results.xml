@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-11-05T23:07:15 IST" name="OrangeHRM Automation Suite" finished-at="2026-11-05T23:07:40 IST" duration-ms="25062">
+    <groups>
+    </groups>
+    <test started-at="2026-11-05T23:07:15 IST" name="OrangeHRM Browser Tests" finished-at="2026-11-05T23:07:40 IST" duration-ms="25062">
+      <class name="testcases.BrowserLaunchTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.BrowserLaunchTest@76f10035]" started-at="2026-11-05T23:07:15 IST" name="setup" finished-at="2026-11-05T23:07:27 IST" duration-ms="12171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyBrowserLaunch()[pri:0, instance:testcases.BrowserLaunchTest@76f10035]" started-at="2026-11-05T23:07:27 IST" name="verifyBrowserLaunch" finished-at="2026-11-05T23:07:27 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBrowserLaunch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.BrowserLaunchTest@76f10035]" started-at="2026-11-05T23:07:27 IST" name="tearDown" finished-at="2026-11-05T23:07:27 IST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.BrowserLaunchTest -->
+      <class name="testcases.FailureScreenshotTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.FailureScreenshotTest@341a8659]" started-at="2026-11-05T23:07:27 IST" name="setup" finished-at="2026-11-05T23:07:39 IST" duration-ms="11171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyFailureScreenshot()[pri:0, instance:testcases.FailureScreenshotTest@341a8659]" started-at="2026-11-05T23:07:39 IST" name="verifyFailureScreenshot" finished-at="2026-11-05T23:07:39 IST" duration-ms="757" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Intentional failure to verify screenshot capture]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Intentional failure to verify screenshot capture
+at org.testng.Assert.fail(Assert.java:111)
+at testcases.FailureScreenshotTest.verifyFailureScreenshot(FailureScreenshotTest.java:30)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFailureScreenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FailureScreenshotTest@341a8659]" started-at="2026-11-05T23:07:39 IST" name="tearDown" finished-at="2026-11-05T23:07:40 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.FailureScreenshotTest -->
+    </test> <!-- OrangeHRM Browser Tests -->
+  </suite> <!-- OrangeHRM Automation Suite -->
+</testng-results>
