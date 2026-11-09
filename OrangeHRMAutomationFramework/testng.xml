@@ -11,8 +11,7 @@
     <test name="OrangeHRM Browser Tests">
 
         <classes>
-            <class name="testcases.BrowserLaunchTest"/>
-            <class name="testcases.FailureScreenshotTest"/>
+            <class name="testcases.LoginTest"/>
         </classes>
 
     </test>

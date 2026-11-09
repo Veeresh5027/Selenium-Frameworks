@@ -1,76 +1,223 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-11-05T23:07:15 IST" name="OrangeHRM Automation Suite" finished-at="2026-11-05T23:07:40 IST" duration-ms="25062">
+  <suite started-at="2026-11-06T20:12:19 IST" name="Default suite" finished-at="2026-11-06T20:15:00 IST" duration-ms="161645">
     <groups>
     </groups>
-    <test started-at="2026-11-05T23:07:15 IST" name="OrangeHRM Browser Tests" finished-at="2026-11-05T23:07:40 IST" duration-ms="25062">
-      <class name="testcases.BrowserLaunchTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.BrowserLaunchTest@76f10035]" started-at="2026-11-05T23:07:15 IST" name="setup" finished-at="2026-11-05T23:07:27 IST" duration-ms="12171" status="PASS">
+    <test started-at="2026-11-06T20:12:19 IST" name="Default test" finished-at="2026-11-06T20:15:00 IST" duration-ms="161645">
+      <class name="testcases.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginTest@76f10035]" started-at="2026-11-06T20:12:20 IST" name="setup" finished-at="2026-11-06T20:12:31 IST" duration-ms="11240" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyBrowserLaunch()[pri:0, instance:testcases.BrowserLaunchTest@76f10035]" started-at="2026-11-05T23:07:27 IST" name="verifyBrowserLaunch" finished-at="2026-11-05T23:07:27 IST" duration-ms="89" status="PASS">
+        <test-method signature="verifyLoginWithExcelData(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testcases.LoginTest@76f10035]" started-at="2026-11-06T20:12:31 IST" name="verifyLoginWithExcelData" data-provider="loginData" finished-at="2026-11-06T20:12:33 IST" duration-ms="1931" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyBrowserLaunch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.BrowserLaunchTest@76f10035]" started-at="2026-11-05T23:07:27 IST" name="tearDown" finished-at="2026-11-05T23:07:27 IST" duration-ms="195" status="PASS">
+        </test-method> <!-- verifyLoginWithExcelData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTest@76f10035]" started-at="2026-11-06T20:12:33 IST" name="tearDown" finished-at="2026-11-06T20:12:38 IST" duration-ms="4438" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcases.BrowserLaunchTest -->
-      <class name="testcases.FailureScreenshotTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.FailureScreenshotTest@341a8659]" started-at="2026-11-05T23:07:27 IST" name="setup" finished-at="2026-11-05T23:07:39 IST" duration-ms="11171" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginTest@76f10035]" started-at="2026-11-06T20:12:38 IST" name="setup" finished-at="2026-11-06T20:12:49 IST" duration-ms="10984" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyFailureScreenshot()[pri:0, instance:testcases.FailureScreenshotTest@341a8659]" started-at="2026-11-05T23:07:39 IST" name="verifyFailureScreenshot" finished-at="2026-11-05T23:07:39 IST" duration-ms="757" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Intentional failure to verify screenshot capture]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Intentional failure to verify screenshot capture
-at org.testng.Assert.fail(Assert.java:111)
-at testcases.FailureScreenshotTest.verifyFailureScreenshot(FailureScreenshotTest.java:30)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="verifyLoginWithExcelData(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testcases.LoginTest@76f10035]" started-at="2026-11-06T20:12:49 IST" name="verifyLoginWithExcelData" data-provider="loginData" finished-at="2026-11-06T20:12:51 IST" duration-ms="2606" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InvalidUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyFailureScreenshot -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FailureScreenshotTest@341a8659]" started-at="2026-11-05T23:07:39 IST" name="tearDown" finished-at="2026-11-05T23:07:40 IST" duration-ms="245" status="PASS">
+        </test-method> <!-- verifyLoginWithExcelData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTest@76f10035]" started-at="2026-11-06T20:12:51 IST" name="tearDown" finished-at="2026-11-06T20:12:56 IST" duration-ms="4263" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcases.FailureScreenshotTest -->
-    </test> <!-- OrangeHRM Browser Tests -->
-  </suite> <!-- OrangeHRM Automation Suite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginTest@76f10035]" started-at="2026-11-06T20:12:56 IST" name="setup" finished-at="2026-11-06T20:13:06 IST" duration-ms="10792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithExcelData(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testcases.LoginTest@76f10035]" started-at="2026-11-06T20:13:06 IST" name="verifyLoginWithExcelData" data-provider="loginData" finished-at="2026-11-06T20:13:09 IST" duration-ms="2748" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithExcelData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTest@76f10035]" started-at="2026-11-06T20:13:09 IST" name="tearDown" finished-at="2026-11-06T20:13:13 IST" duration-ms="4322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginTest@76f10035]" started-at="2026-11-06T20:13:13 IST" name="setup" finished-at="2026-11-06T20:13:29 IST" duration-ms="15664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithExcelData(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testcases.LoginTest@76f10035]" started-at="2026-11-06T20:13:29 IST" name="verifyLoginWithExcelData" data-provider="loginData" finished-at="2026-11-06T20:13:30 IST" duration-ms="1144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[UsernameRequired]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithExcelData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTest@76f10035]" started-at="2026-11-06T20:13:30 IST" name="tearDown" finished-at="2026-11-06T20:13:34 IST" duration-ms="4257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginTest@76f10035]" started-at="2026-11-06T20:13:34 IST" name="setup" finished-at="2026-11-06T20:13:45 IST" duration-ms="10856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithExcelData(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testcases.LoginTest@76f10035]" started-at="2026-11-06T20:13:45 IST" name="verifyLoginWithExcelData" data-provider="loginData" finished-at="2026-11-06T20:13:47 IST" duration-ms="1280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[PasswordRequired]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithExcelData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTest@76f10035]" started-at="2026-11-06T20:13:47 IST" name="tearDown" finished-at="2026-11-06T20:13:51 IST" duration-ms="4263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginTest@76f10035]" started-at="2026-11-06T20:13:51 IST" name="setup" finished-at="2026-11-06T20:14:03 IST" duration-ms="12417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithExcelData(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testcases.LoginTest@76f10035]" started-at="2026-11-06T20:14:03 IST" name="verifyLoginWithExcelData" data-provider="loginData" finished-at="2026-11-06T20:14:04 IST" duration-ms="1009" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[BothRequired]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithExcelData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTest@76f10035]" started-at="2026-11-06T20:14:04 IST" name="tearDown" finished-at="2026-11-06T20:14:09 IST" duration-ms="4313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginTest@76f10035]" started-at="2026-11-06T20:14:09 IST" name="setup" finished-at="2026-11-06T20:14:20 IST" duration-ms="11148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyPasswordMasking()[pri:2, instance:testcases.LoginTest@76f10035]" started-at="2026-11-06T20:14:20 IST" name="verifyPasswordMasking" finished-at="2026-11-06T20:14:21 IST" duration-ms="775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordMasking -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTest@76f10035]" started-at="2026-11-06T20:14:21 IST" name="tearDown" finished-at="2026-11-06T20:14:25 IST" duration-ms="4278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginTest@76f10035]" started-at="2026-11-06T20:14:25 IST" name="setup" finished-at="2026-11-06T20:14:36 IST" duration-ms="11094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyForgotPasswordNavigation()[pri:3, instance:testcases.LoginTest@76f10035]" started-at="2026-11-06T20:14:36 IST" name="verifyForgotPasswordNavigation" finished-at="2026-11-06T20:14:38 IST" duration-ms="2090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPasswordNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTest@76f10035]" started-at="2026-11-06T20:14:38 IST" name="tearDown" finished-at="2026-11-06T20:14:42 IST" duration-ms="4328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginTest@76f10035]" started-at="2026-11-06T20:14:42 IST" name="setup" finished-at="2026-11-06T20:14:54 IST" duration-ms="11416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginUsingEnterKey()[pri:4, instance:testcases.LoginTest@76f10035]" started-at="2026-11-06T20:14:54 IST" name="verifyLoginUsingEnterKey" finished-at="2026-11-06T20:14:56 IST" duration-ms="2388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginUsingEnterKey -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTest@76f10035]" started-at="2026-11-06T20:14:56 IST" name="tearDown" finished-at="2026-11-06T20:15:00 IST" duration-ms="4253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

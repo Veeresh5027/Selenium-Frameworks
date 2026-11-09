@@ -101,3 +101,240 @@ java.lang.AssertionError: Intentional failure to verify screenshot capture
 2026-11-05 23:07:39 INFO  TestListener - Failure screenshot captured successfully
 2026-11-05 23:07:39 INFO  BaseTest - Closing browser session
 2026-11-05 23:07:40 INFO  BaseTest - Browser session closed
+2026-11-06 13:20:44 INFO  BaseTest - Starting browser: chrome
+2026-11-06 13:21:00 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-06 13:21:02 INFO  BaseTest - Explicit wait verified successfully
+2026-11-06 13:21:02 INFO  BaseTest - Test execution completed. Observing browser for 4 seconds...
+2026-11-06 13:21:06 INFO  BaseTest - Closing browser session
+2026-11-06 13:21:07 INFO  BaseTest - Browser session closed
+2026-11-06 17:09:42 INFO  BaseTest - Starting browser: chrome
+2026-11-06 17:09:57 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-06 17:09:57 INFO  BaseTest - Starting login test for username: Admin
+2026-11-06 17:09:59 INFO  BaseTest - Valid login successful
+2026-11-06 17:09:59 INFO  BaseTest - Test execution completed. Observing browser for 4 seconds...
+2026-11-06 17:10:03 INFO  BaseTest - Closing browser session
+2026-11-06 17:10:04 INFO  BaseTest - Browser session closed
+2026-11-06 17:10:04 INFO  BaseTest - Starting browser: chrome
+2026-11-06 17:10:16 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-06 17:10:16 INFO  BaseTest - Starting login test for username: InvalidUser
+2026-11-06 17:10:21 INFO  BaseTest - Invalid login handled successfully
+2026-11-06 17:10:21 INFO  BaseTest - Test execution completed. Observing browser for 4 seconds...
+2026-11-06 17:10:25 INFO  BaseTest - Closing browser session
+2026-11-06 17:10:26 INFO  BaseTest - Browser session closed
+2026-11-06 17:10:26 INFO  BaseTest - Starting browser: chrome
+2026-11-06 17:10:38 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-06 17:10:38 INFO  BaseTest - Starting login test for username: Admin
+2026-11-06 17:10:48 INFO  BaseTest - Invalid login handled successfully
+2026-11-06 17:10:48 INFO  BaseTest - Test execution completed. Observing browser for 4 seconds...
+2026-11-06 17:10:52 INFO  BaseTest - Closing browser session
+2026-11-06 17:10:52 INFO  BaseTest - Browser session closed
+2026-11-06 17:10:52 INFO  BaseTest - Starting browser: chrome
+2026-11-06 17:11:05 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-06 17:11:05 INFO  BaseTest - Starting password masking test
+2026-11-06 17:11:07 INFO  BaseTest - Password masking verified successfully
+2026-11-06 17:11:07 INFO  BaseTest - Test execution completed. Observing browser for 4 seconds...
+2026-11-06 17:11:11 INFO  BaseTest - Closing browser session
+2026-11-06 17:11:11 INFO  BaseTest - Browser session closed
+2026-11-06 17:11:11 INFO  BaseTest - Starting browser: chrome
+2026-11-06 17:11:23 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-06 17:11:23 INFO  BaseTest - Starting forgot password navigation test
+2026-11-06 17:11:25 INFO  BaseTest - Forgot Password navigation verified successfully
+2026-11-06 17:11:25 INFO  BaseTest - Test execution completed. Observing browser for 4 seconds...
+2026-11-06 17:11:29 INFO  BaseTest - Closing browser session
+2026-11-06 17:11:30 INFO  BaseTest - Browser session closed
+2026-11-06 17:11:30 INFO  BaseTest - Starting browser: chrome
+2026-11-06 17:11:41 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-06 17:11:41 INFO  BaseTest - Starting ENTER key login test
+2026-11-06 17:11:44 INFO  BaseTest - ENTER key login verified successfully
+2026-11-06 17:11:44 INFO  BaseTest - Test execution completed. Observing browser for 4 seconds...
+2026-11-06 17:11:48 INFO  BaseTest - Closing browser session
+2026-11-06 17:11:49 INFO  BaseTest - Browser session closed
+2026-11-06 17:29:41 INFO  BaseTest - Starting browser: chrome
+2026-11-06 17:29:53 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-06 17:29:54 INFO  BaseTest - Starting login test. Expected result: Valid
+2026-11-06 17:29:57 INFO  BaseTest - Valid login verified successfully
+2026-11-06 17:29:57 INFO  BaseTest - Test execution completed. Observing browser for 4 seconds...
+2026-11-06 17:30:01 INFO  BaseTest - Closing browser session
+2026-11-06 17:30:01 INFO  BaseTest - Browser session closed
+2026-11-06 17:30:01 INFO  BaseTest - Starting browser: chrome
+2026-11-06 17:30:03 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-06 17:30:03 INFO  BaseTest - Starting login test. Expected result: Invalid
+2026-11-06 17:30:42 INFO  BaseTest - Invalid credentials validation verified
+2026-11-06 17:30:42 INFO  BaseTest - Test execution completed. Observing browser for 4 seconds...
+2026-11-06 17:30:46 INFO  BaseTest - Closing browser session
+2026-11-06 17:30:46 INFO  BaseTest - Browser session closed
+2026-11-06 17:30:46 INFO  BaseTest - Starting browser: chrome
+2026-11-06 17:30:58 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-06 17:30:58 INFO  BaseTest - Starting login test. Expected result: Invalid
+2026-11-06 17:31:01 INFO  BaseTest - Invalid credentials validation verified
+2026-11-06 17:31:01 INFO  BaseTest - Test execution completed. Observing browser for 4 seconds...
+2026-11-06 17:31:05 INFO  BaseTest - Closing browser session
+2026-11-06 17:31:05 INFO  BaseTest - Browser session closed
+2026-11-06 17:31:05 INFO  BaseTest - Starting browser: chrome
+2026-11-06 17:31:16 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-06 17:31:16 INFO  BaseTest - Starting login test. Expected result: UsernameRequired
+2026-11-06 17:31:17 INFO  BaseTest - Username required validation verified
+2026-11-06 17:31:17 INFO  BaseTest - Test execution completed. Observing browser for 4 seconds...
+2026-11-06 17:31:21 INFO  BaseTest - Closing browser session
+2026-11-06 17:31:22 INFO  BaseTest - Browser session closed
+2026-11-06 17:31:22 INFO  BaseTest - Starting browser: chrome
+2026-11-06 17:31:33 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-06 17:31:33 INFO  BaseTest - Starting login test. Expected result: PasswordRequired
+2026-11-06 17:31:34 INFO  BaseTest - Password required validation verified
+2026-11-06 17:31:34 INFO  BaseTest - Test execution completed. Observing browser for 4 seconds...
+2026-11-06 17:31:38 INFO  BaseTest - Closing browser session
+2026-11-06 17:31:38 INFO  BaseTest - Browser session closed
+2026-11-06 17:31:38 INFO  BaseTest - Starting browser: chrome
+2026-11-06 17:31:44 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-06 17:31:44 INFO  BaseTest - Starting login test. Expected result: BothRequired
+2026-11-06 17:31:45 INFO  BaseTest - Both fields required validation verified
+2026-11-06 17:31:45 INFO  BaseTest - Test execution completed. Observing browser for 4 seconds...
+2026-11-06 17:31:49 INFO  BaseTest - Closing browser session
+2026-11-06 17:31:50 INFO  BaseTest - Browser session closed
+2026-11-06 17:31:50 INFO  BaseTest - Starting browser: chrome
+2026-11-06 17:32:01 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-06 17:32:01 INFO  BaseTest - Starting password masking test
+2026-11-06 17:32:02 INFO  BaseTest - Password masking verified successfully
+2026-11-06 17:32:02 INFO  BaseTest - Test execution completed. Observing browser for 4 seconds...
+2026-11-06 17:32:06 INFO  BaseTest - Closing browser session
+2026-11-06 17:32:06 INFO  BaseTest - Browser session closed
+2026-11-06 17:32:06 INFO  BaseTest - Starting browser: chrome
+2026-11-06 17:32:18 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-06 17:32:18 INFO  BaseTest - Starting forgot password navigation test
+2026-11-06 17:32:20 INFO  BaseTest - Forgot Password navigation verified successfully
+2026-11-06 17:32:20 INFO  BaseTest - Test execution completed. Observing browser for 4 seconds...
+2026-11-06 17:32:24 INFO  BaseTest - Closing browser session
+2026-11-06 17:32:24 INFO  BaseTest - Browser session closed
+2026-11-06 17:32:24 INFO  BaseTest - Starting browser: chrome
+2026-11-06 17:32:36 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-06 17:32:36 INFO  BaseTest - Starting ENTER key login test
+2026-11-06 17:32:38 INFO  BaseTest - ENTER key login verified successfully
+2026-11-06 17:32:38 INFO  BaseTest - Test execution completed. Observing browser for 4 seconds...
+2026-11-06 17:32:42 INFO  BaseTest - Closing browser session
+2026-11-06 17:32:42 INFO  BaseTest - Browser session closed
+2026-11-06 19:31:57 INFO  BaseTest - Starting browser: chrome
+2026-11-06 19:32:14 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-06 19:32:14 INFO  BaseTest - Starting login test. Expected result: Valid
+2026-11-06 19:32:17 INFO  BaseTest - Valid login verified successfully
+2026-11-06 19:32:17 INFO  BaseTest - Test execution completed. Observing browser for 4 seconds...
+2026-11-06 19:32:21 INFO  BaseTest - Closing browser session
+2026-11-06 19:32:21 INFO  BaseTest - Browser session closed
+2026-11-06 19:32:21 INFO  BaseTest - Starting browser: chrome
+2026-11-06 19:32:33 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-06 19:32:33 INFO  BaseTest - Starting login test. Expected result: Invalid
+2026-11-06 19:32:36 INFO  BaseTest - Invalid credentials validation verified
+2026-11-06 19:32:36 INFO  BaseTest - Test execution completed. Observing browser for 4 seconds...
+2026-11-06 19:32:40 INFO  BaseTest - Closing browser session
+2026-11-06 19:32:40 INFO  BaseTest - Browser session closed
+2026-11-06 19:32:40 INFO  BaseTest - Starting browser: chrome
+2026-11-06 19:32:50 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-06 19:32:50 INFO  BaseTest - Starting login test. Expected result: Invalid
+2026-11-06 19:32:53 INFO  BaseTest - Invalid credentials validation verified
+2026-11-06 19:32:53 INFO  BaseTest - Test execution completed. Observing browser for 4 seconds...
+2026-11-06 19:32:57 INFO  BaseTest - Closing browser session
+2026-11-06 19:32:57 INFO  BaseTest - Browser session closed
+2026-11-06 19:32:57 INFO  BaseTest - Starting browser: chrome
+2026-11-06 19:33:09 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-06 19:33:09 INFO  BaseTest - Starting login test. Expected result: UsernameRequired
+2026-11-06 19:33:10 INFO  BaseTest - Username required validation verified
+2026-11-06 19:33:10 INFO  BaseTest - Test execution completed. Observing browser for 4 seconds...
+2026-11-06 19:33:14 INFO  BaseTest - Closing browser session
+2026-11-06 19:33:14 INFO  BaseTest - Browser session closed
+2026-11-06 19:33:14 INFO  BaseTest - Starting browser: chrome
+2026-11-06 19:33:26 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-06 19:33:26 INFO  BaseTest - Starting login test. Expected result: PasswordRequired
+2026-11-06 19:33:27 INFO  BaseTest - Password required validation verified
+2026-11-06 19:33:27 INFO  BaseTest - Test execution completed. Observing browser for 4 seconds...
+2026-11-06 19:33:31 INFO  BaseTest - Closing browser session
+2026-11-06 19:33:31 INFO  BaseTest - Browser session closed
+2026-11-06 19:33:31 INFO  BaseTest - Starting browser: chrome
+2026-11-06 19:33:43 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-06 19:33:43 INFO  BaseTest - Starting login test. Expected result: BothRequired
+2026-11-06 19:33:44 INFO  BaseTest - Both fields required validation verified
+2026-11-06 19:33:44 INFO  BaseTest - Test execution completed. Observing browser for 4 seconds...
+2026-11-06 19:33:48 INFO  BaseTest - Closing browser session
+2026-11-06 19:33:48 INFO  BaseTest - Browser session closed
+2026-11-06 19:33:48 INFO  BaseTest - Starting browser: chrome
+2026-11-06 19:34:00 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-06 19:34:00 INFO  BaseTest - Starting password masking test
+2026-11-06 19:34:00 INFO  BaseTest - Password masking verified successfully
+2026-11-06 19:34:00 INFO  BaseTest - Test execution completed. Observing browser for 4 seconds...
+2026-11-06 19:34:04 INFO  BaseTest - Closing browser session
+2026-11-06 19:34:05 INFO  BaseTest - Browser session closed
+2026-11-06 19:34:05 INFO  BaseTest - Starting browser: chrome
+2026-11-06 19:34:16 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-06 19:34:16 INFO  BaseTest - Starting forgot password navigation test
+2026-11-06 19:34:18 INFO  BaseTest - Forgot Password navigation verified successfully
+2026-11-06 19:34:18 INFO  BaseTest - Test execution completed. Observing browser for 4 seconds...
+2026-11-06 19:34:22 INFO  BaseTest - Closing browser session
+2026-11-06 19:34:23 INFO  BaseTest - Browser session closed
+2026-11-06 19:34:23 INFO  BaseTest - Starting browser: chrome
+2026-11-06 19:34:35 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-06 19:34:35 INFO  BaseTest - Starting ENTER key login test
+2026-11-06 19:34:39 INFO  BaseTest - ENTER key login verified successfully
+2026-11-06 19:34:39 INFO  BaseTest - Test execution completed. Observing browser for 4 seconds...
+2026-11-06 19:34:43 INFO  BaseTest - Closing browser session
+2026-11-06 19:34:43 INFO  BaseTest - Browser session closed
+2026-11-06 20:12:20 INFO  BaseTest - Starting browser: chrome
+2026-11-06 20:12:31 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-06 20:12:31 INFO  BaseTest - Starting login test. Expected result: Valid
+2026-11-06 20:12:33 INFO  BaseTest - Valid login verified successfully
+2026-11-06 20:12:33 INFO  BaseTest - Test execution completed. Observing browser for 4 seconds...
+2026-11-06 20:12:37 INFO  BaseTest - Closing browser session
+2026-11-06 20:12:38 INFO  BaseTest - Browser session closed
+2026-11-06 20:12:38 INFO  BaseTest - Starting browser: chrome
+2026-11-06 20:12:49 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-06 20:12:49 INFO  BaseTest - Starting login test. Expected result: Invalid
+2026-11-06 20:12:51 INFO  BaseTest - Invalid credentials validation verified
+2026-11-06 20:12:51 INFO  BaseTest - Test execution completed. Observing browser for 4 seconds...
+2026-11-06 20:12:55 INFO  BaseTest - Closing browser session
+2026-11-06 20:12:56 INFO  BaseTest - Browser session closed
+2026-11-06 20:12:56 INFO  BaseTest - Starting browser: chrome
+2026-11-06 20:13:06 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-06 20:13:06 INFO  BaseTest - Starting login test. Expected result: Invalid
+2026-11-06 20:13:09 INFO  BaseTest - Invalid credentials validation verified
+2026-11-06 20:13:09 INFO  BaseTest - Test execution completed. Observing browser for 4 seconds...
+2026-11-06 20:13:13 INFO  BaseTest - Closing browser session
+2026-11-06 20:13:13 INFO  BaseTest - Browser session closed
+2026-11-06 20:13:13 INFO  BaseTest - Starting browser: chrome
+2026-11-06 20:13:29 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-06 20:13:29 INFO  BaseTest - Starting login test. Expected result: UsernameRequired
+2026-11-06 20:13:30 INFO  BaseTest - Username required validation verified
+2026-11-06 20:13:30 INFO  BaseTest - Test execution completed. Observing browser for 4 seconds...
+2026-11-06 20:13:34 INFO  BaseTest - Closing browser session
+2026-11-06 20:13:34 INFO  BaseTest - Browser session closed
+2026-11-06 20:13:34 INFO  BaseTest - Starting browser: chrome
+2026-11-06 20:13:45 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-06 20:13:45 INFO  BaseTest - Starting login test. Expected result: PasswordRequired
+2026-11-06 20:13:47 INFO  BaseTest - Password required validation verified
+2026-11-06 20:13:47 INFO  BaseTest - Test execution completed. Observing browser for 4 seconds...
+2026-11-06 20:13:51 INFO  BaseTest - Closing browser session
+2026-11-06 20:13:51 INFO  BaseTest - Browser session closed
+2026-11-06 20:13:51 INFO  BaseTest - Starting browser: chrome
+2026-11-06 20:14:03 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-06 20:14:03 INFO  BaseTest - Starting login test. Expected result: BothRequired
+2026-11-06 20:14:04 INFO  BaseTest - Both fields required validation verified
+2026-11-06 20:14:04 INFO  BaseTest - Test execution completed. Observing browser for 4 seconds...
+2026-11-06 20:14:08 INFO  BaseTest - Closing browser session
+2026-11-06 20:14:09 INFO  BaseTest - Browser session closed
+2026-11-06 20:14:09 INFO  BaseTest - Starting browser: chrome
+2026-11-06 20:14:20 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-06 20:14:20 INFO  BaseTest - Starting password masking test
+2026-11-06 20:14:21 INFO  BaseTest - Password masking verified successfully
+2026-11-06 20:14:21 INFO  BaseTest - Test execution completed. Observing browser for 4 seconds...
+2026-11-06 20:14:25 INFO  BaseTest - Closing browser session
+2026-11-06 20:14:25 INFO  BaseTest - Browser session closed
+2026-11-06 20:14:25 INFO  BaseTest - Starting browser: chrome
+2026-11-06 20:14:36 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-06 20:14:36 INFO  BaseTest - Starting forgot password navigation test
+2026-11-06 20:14:38 INFO  BaseTest - Forgot Password navigation verified successfully
+2026-11-06 20:14:38 INFO  BaseTest - Test execution completed. Observing browser for 4 seconds...
+2026-11-06 20:14:42 INFO  BaseTest - Closing browser session
+2026-11-06 20:14:42 INFO  BaseTest - Browser session closed
+2026-11-06 20:14:42 INFO  BaseTest - Starting browser: chrome
+2026-11-06 20:14:54 INFO  BaseTest - Navigated to application: https://opensource-demo.orangehrmlive.com/
+2026-11-06 20:14:54 INFO  BaseTest - Starting ENTER key login test
+2026-11-06 20:14:56 INFO  BaseTest - ENTER key login verified successfully
+2026-11-06 20:14:56 INFO  BaseTest - Test execution completed. Observing browser for 4 seconds...
+2026-11-06 20:15:00 INFO  BaseTest - Closing browser session
+2026-11-06 20:15:00 INFO  BaseTest - Browser session closed
