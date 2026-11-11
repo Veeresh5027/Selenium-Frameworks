@@ -53,4 +53,22 @@ public class ReadConfig {
         return Boolean.parseBoolean(
             prop.getProperty("screenshotOnFailure"));
     }
+
+    // PIM module: Valid login credentials
+
+    public String getValidUsername() {
+        return prop.getProperty("validUsername");
+    }
+
+    public String getValidPassword() {
+        return prop.getProperty("validPassword");
+    }
+
+    // PIM module: Upload directory
+
+    public String getUploadDirectory() {
+        return prop.getProperty("uploadDirectory");
+    }
 }
+
+

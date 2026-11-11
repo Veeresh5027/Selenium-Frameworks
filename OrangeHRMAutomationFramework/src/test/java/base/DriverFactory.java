@@ -1,7 +1,10 @@
+
 package base;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -15,7 +18,13 @@ public class DriverFactory {
         if (browser.equalsIgnoreCase("chrome")) {
 
             WebDriverManager.chromedriver().setup();
-            driver.set(new ChromeDriver());
+
+            ChromeOptions options = new ChromeOptions();
+
+            // Do not wait for complete page navigation
+            options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
+
+            driver.set(new ChromeDriver(options));
 
         } else if (browser.equalsIgnoreCase("firefox")) {
 
@@ -23,8 +32,9 @@ public class DriverFactory {
             driver.set(new FirefoxDriver());
 
         } else {
+
             throw new IllegalArgumentException(
-                "Unsupported browser: " + browser);
+                    "Unsupported browser: " + browser);
         }
     }
 

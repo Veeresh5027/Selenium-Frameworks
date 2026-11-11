@@ -1,10 +1,14 @@
+
 package base;
 
-import java.util.concurrent.TimeUnit;
+import java.time.Duration;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
@@ -17,8 +21,7 @@ public class BaseTest {
 
     protected Logger logger = LogManager.getLogger(BaseTest.class);
 
-    @SuppressWarnings("deprecation")
-	@BeforeMethod
+    @BeforeMethod
     public void setup() {
 
         config = new ReadConfig();
@@ -34,15 +37,24 @@ public class BaseTest {
         driver.manage().window().maximize();
 
         driver.manage().timeouts().implicitlyWait(
-                config.getImplicitWait(), TimeUnit.SECONDS);
+                Duration.ofSeconds(config.getImplicitWait()));
 
         driver.manage().timeouts().pageLoadTimeout(
-                config.getPageLoadTimeout(), TimeUnit.SECONDS);
+                Duration.ofSeconds(config.getPageLoadTimeout()));
+
+        logger.info("Opening OrangeHRM application");
 
         driver.get(config.getApplicationUrl());
 
-        logger.info("Navigated to application: "
-                + config.getApplicationUrl());
+        // Wait until the OrangeHRM login page is ready
+        WebDriverWait wait = new WebDriverWait(
+                driver,
+                Duration.ofSeconds(config.getExplicitWait()));
+
+        wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.name("username")));
+
+        logger.info("OrangeHRM login page loaded successfully");
     }
 
     @AfterMethod(alwaysRun = true)
